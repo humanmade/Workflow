@@ -42,7 +42,7 @@ function enqueue_ui_assets() {
 		return;
 	}
 
-	if ( ! is_admin() && ! is_admin_bar_showing() ) {
+	if ( ! is_admin() ) {
 		return;
 	}
 
